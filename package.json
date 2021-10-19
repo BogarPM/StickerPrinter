@@ -1,0 +1,31 @@
+{
+  "name": "stickerprinter",
+  "version": "1.0.0",
+  "description": "A software to create and print stickers for general porpouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BogarPM/StickerPrinter.git"
+  },
+  "keywords": [
+    "sticker",
+    "printer",
+    "node",
+    "barcodes"
+  ],
+  "author": "BogarPM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BogarPM/StickerPrinter/issues"
+  },
+  "homepage": "https://github.com/BogarPM/StickerPrinter#readme",
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "electron": "^15.2.0",
+    "jsbarcode": "^3.11.5",
+    "pngjs": "^6.0.0"
+  }
+}
